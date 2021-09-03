@@ -1,0 +1,3 @@
+/home/shaw/File/ClionProject/OpenJoint/build/CMakeFiles/rebuild_cache.dir
+/home/shaw/File/ClionProject/OpenJoint/build/CMakeFiles/edit_cache.dir
+/home/shaw/File/ClionProject/OpenJoint/build/CMakeFiles/OpenJoint.dir

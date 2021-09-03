@@ -1,0 +1,186 @@
+/snap/clion/163/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/shaw/File/ClionProject/OpenJoint
+-- Looking for ignition-transport8 -- found version 8.2.0
+-- Searching for dependencies of ignition-transport8
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Looking for ignition-msgs5 -- found version 5.8.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Searching for dependencies of ignition-math6
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.8.0
+-- Looking for ignition-plugin1 -- found version 1.2.0
+-- Searching for dependencies of ignition-plugin1
+-- Searching for <ignition-plugin1> component [register]
+-- Looking for ignition-plugin1-register -- found version 1.2.0
+-- Searching for dependencies of ignition-plugin1-register
+-- Looking for ignition-gazebo3 -- found version 3.9.0
+-- Searching for dependencies of ignition-gazebo3
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Looking for ignition-plugin1 -- found version 1.2.0
+-- Searching for dependencies of ignition-plugin1
+-- Searching for <ignition-plugin1> component [loader]
+-- Looking for ignition-plugin1-loader -- found version 1.2.0
+-- Searching for dependencies of ignition-plugin1-loader
+-- Searching for <ignition-plugin1> component [register]
+-- Looking for ignition-transport8 -- found version 8.2.0
+-- Searching for dependencies of ignition-transport8
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Looking for ignition-msgs5 -- found version 5.8.0
+-- Searching for <ignition-transport8> component [log]
+-- Looking for ignition-transport8-log -- found version 8.2.0
+-- Searching for dependencies of ignition-transport8-log
+-- Looking for ignition-msgs5 -- found version 5.8.0
+-- Looking for ignition-common3 -- found version 3.13.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [profiler]
+-- Looking for ignition-common3-profiler -- found version 3.13.2
+-- Searching for dependencies of ignition-common3-profiler
+-- Searching for <ignition-common3> component [events]
+-- Looking for ignition-common3-events -- found version 3.13.2
+-- Searching for dependencies of ignition-common3-events
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Searching for <ignition-common3> component [av]
+-- Looking for ignition-common3-av -- found version 3.13.2
+-- Searching for dependencies of ignition-common3-av
+-- Checking for module 'libswscale'
+--   Found libswscale, version 5.5.100
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice , version 58.8.100
+-- Checking for module 'libavformat'
+--   Found libavformat, version 58.29.100
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 58.54.100
+-- Checking for module 'libavutil'
+--   Found libavutil, version 56.31.100
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Looking for ignition-common3 -- found version 3.13.2
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Looking for ignition-msgs5 -- found version 5.8.0
+-- Looking for ignition-gui3 -- found version 3.7.0
+-- Searching for dependencies of ignition-gui3
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Looking for ignition-common3 -- found version 3.13.2
+-- Looking for ignition-plugin1 -- found version 1.2.0
+-- Looking for ignition-transport8 -- found version 8.2.0
+-- Looking for ignition-rendering3 -- found version 3.5.0
+-- Searching for dependencies of ignition-rendering3
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Looking for ignition-common3 -- found version 3.13.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.13.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Searching for <ignition-common3> component [events]
+-- Looking for ignition-plugin1 -- found version 1.2.0
+-- Searching for dependencies of ignition-plugin1
+-- Searching for <ignition-plugin1> component [all]
+-- Looking for all libraries of ignition-plugin1 -- found version 1.2.0
+-- Looking for ignition-plugin1 -- found version 1.2.0
+-- Searching for <ignition-rendering3> component [ogre]
+-- Looking for ignition-rendering3-ogre -- found version 3.5.0
+-- Searching for dependencies of ignition-rendering3-ogre
+CMake Warning (dev) at /snap/clion/163/bin/cmake/linux/share/cmake-3.20/Modules/FindOpenGL.cmake:315 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-rendering3-ogre/ignition-rendering3-ogre-config.cmake:114 (find_package)
+  /snap/clion/163/bin/cmake/linux/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-rendering3/ignition-rendering3-config.cmake:204 (find_dependency)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-gui3/ignition-gui3-config.cmake:98 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo3/ignition-gazebo3-config.cmake:98 (find_package)
+  CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Looking for ignition-msgs5 -- found version 5.8.0
+-- Looking for ignition-physics2 -- found version 2.4.0
+-- Searching for dependencies of ignition-physics2
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Searching for dependencies of ignition-math6
+-- Searching for <ignition-math6> component [eigen3]
+-- Looking for ignition-math6-eigen3 -- found version 6.8.0
+-- Searching for dependencies of ignition-math6-eigen3
+-- Looking for ignition-plugin1 -- found version 1.2.0
+-- Searching for <ignition-physics2> component [mesh]
+-- Looking for ignition-physics2-mesh -- found version 2.4.0
+-- Searching for dependencies of ignition-physics2-mesh
+-- Looking for ignition-common3 -- found version 3.13.2
+-- Searching for <ignition-physics2> component [sdf]
+-- Looking for ignition-physics2-sdf -- found version 2.4.0
+-- Searching for dependencies of ignition-physics2-sdf
+-- Looking for ignition-sensors3 -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Looking for ignition-common3 -- found version 3.13.2
+-- Looking for ignition-transport8 -- found version 8.2.0
+-- Looking for ignition-rendering3 -- found version 3.5.0
+-- Looking for ignition-msgs5 -- found version 5.8.0
+-- Looking for ignition-plugin1 -- found version 1.2.0
+-- Searching for <ignition-sensors3> component [rendering]
+-- Looking for ignition-sensors3-rendering -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-rendering
+-- Searching for <ignition-sensors3> component [air_pressure]
+-- Looking for ignition-sensors3-air_pressure -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-air_pressure
+-- Searching for <ignition-sensors3> component [altimeter]
+-- Looking for ignition-sensors3-altimeter -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-altimeter
+-- Searching for <ignition-sensors3> component [camera]
+-- Looking for ignition-sensors3-camera -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-camera
+-- Searching for <ignition-sensors3> component [gpu_lidar]
+-- Looking for ignition-sensors3-gpu_lidar -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-gpu_lidar
+-- Searching for <ignition-sensors3> component [imu]
+-- Looking for ignition-sensors3-imu -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-imu
+-- Searching for <ignition-sensors3> component [logical_camera]
+-- Looking for ignition-sensors3-logical_camera -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-logical_camera
+-- Searching for <ignition-sensors3> component [magnetometer]
+-- Looking for ignition-sensors3-magnetometer -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-magnetometer
+-- Searching for <ignition-sensors3> component [depth_camera]
+-- Looking for ignition-sensors3-depth_camera -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-depth_camera
+-- Searching for <ignition-sensors3> component [thermal_camera]
+-- Looking for ignition-sensors3-thermal_camera -- found version 3.3.0
+-- Searching for dependencies of ignition-sensors3-thermal_camera
+-- Looking for ignition-rendering3 -- found version 3.5.0
+-- Looking for ignition-math6 -- found version 6.8.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shaw/File/ClionProject/OpenJoint/cmake-build-debug
